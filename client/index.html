@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Jeremiahs capstone</title>
+</head>
+
+
+  <header>
+    <h1>task tracker</h1>
+    <br/>
+    <h3>stay active, stay on task & stay motivated </h3>
+    
+  </header>
+
+  <div>
+    <span class="divider"></span>
+  </div>
+  <main>
+    
+    <section class="greeting">
+      <h2 class="title">
+        welcome, <input type="text" id="name" placeholder="Name here">
+      </h2>
+    </section>
+
+    <div class="box">
+      
+      <h3>event lists</h3>
+      <section id="eventDisplay"></section>
+      <button id="deleteEvent">Delete</button>
+      <button id="updateEvents">Update</button>
+    </div>
+     
+    
+    
+
+     <div2>
+      <section id="suggestionBox"></section>
+      <h3>add an event!</h3>
+      <input id="eventName" placeholder="Event name"/>
+      <br/>
+      <input id="eventDate" placeholder="Event date"/>
+      <br/>
+      <input id="description" placeholder="Description"/>
+      <br/>
+      <input id="timeSpent" placeholder="Event time length"/>
+      <br/>
+      <input id="startTime" placeholder="Start time"/>
+      <br/>
+      <button id="createNewEvent">Create</button>
+      <br/>
+
+     </div2>
+      <br/>
+      <br/>
+      <section class="timer"></section>
+     <!-- <div class="timer"></div> -->
+     
+    
+    
+
+  </main>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./index.js"></script>
+  
+</body>
+</html>

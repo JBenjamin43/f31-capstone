@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,900&family=Montserrat:ital,wght@0,200;0,300;0,500;0,700;1,200;1,300;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+.divider{
+    width: 100%;
+    height: 0.5px;
+    background-color: white;
+    display: inline-block;
+    
+
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://assets.entrepreneur.com/content/3x2/2000/1597377059-GettyImages-1221420754.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: rgb(125, 197, 119);
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+
+}
+
+button {
+    background-color: #232323;
+    width: 75px;
+    height: 25px;
+    color: rgb(230, 228, 225);
+    border: 1px solid rgb(125, 197, 119);
+    margin: 5px;
+    box-shadow: inset 0 0 0 0 rgb(125, 197, 119);
+    transition: 0.8s;
+}
+
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #000000;
+    background-color: rgb(250, 250, 250);
+}
+
+.box{
+    color: aliceblue;
+}
+
+input[id="name"]{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+    color: aliceblue;
+}
+    
+
+.timer__part {
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: 1px solid;
+    color: white;
+    background: #020104;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .timer__btn--start {
+    background: rgb(125, 197, 119);
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }
+  
+  div2{
+    align-items: center;
+     
+    justify-content: center; 
+    
+    
+  }
+  
