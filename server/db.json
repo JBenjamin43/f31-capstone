@@ -2,7 +2,7 @@
     {
         "id": 1,
         "eventName": "study",
-        "eventDate": "12/3/2022",
+        "eventDate": "12/9/2022",
         "description": "study chapters 12-14 and study vocab",
         "timeSpent": "2 hours",
         "startTime": "12:00pm",
@@ -10,8 +10,8 @@
     },
     {
         "id": 2,
-        "eventName": "make dinner",
-        "eventDate": "12/3/2022",
+        "eventName": "make lunch",
+        "eventDate": "12/9/2022",
         "description": "cook the stir fry",
         "timeSpent": "1 hour and 30 mins",
         "startTime": "2:00pm",
@@ -20,8 +20,8 @@
     {
         "id": 3,
         "eventName": "clean the kitchen",
-        "eventDate": "12/3/2022",
-        "description": "wash the dish, clean the sink, counters and stove tops",
+        "eventDate": "12/9/2022",
+        "description": "wash the dish, clean the sink and counters ",
         "timeSpent": "1 hours",
         "startTime": "3:30pm",
         "eventStatus": "In progress"
